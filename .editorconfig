@@ -1,0 +1,37 @@
+# http://editorconfig.org/
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+
+#****************************************************
+# indent_style [tab, space]
+#   インデントをtabかpaceのどちらにするか
+#
+# indent_size
+#   インデントを半角スペースいくつ分にするか
+#
+# end_of_line [lf, cr, crlf]
+#   改行コードの種類の指定
+#
+# charset [latin1, utf-8, utf-16be, utf-16le]
+#   文字コードの指定
+#
+# trim_trailing_whitespace [true, false]
+#   行末の空白を削除するか
+#
+# insert_final_newline  [true, false]
+#   最終行に空行を入れるか
+# ---
+# .editorconfigのサンプル
+#   https://github.com/editorconfig/editorconfig/wiki/Projects-Using-EditorConfig
